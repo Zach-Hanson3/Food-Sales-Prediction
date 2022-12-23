@@ -21,17 +21,6 @@ In this program we are creating multiple different models to help a retailer und
 - Created a linear regression model and investigated the RMSE and R^2 values this model gave us
 - Created a Regression tree model and investigated the RMSE and R^2 values this model gave us
 
-## Results
-
-### Here are examples of how to embed images from your sub-folder
-
-
-#### Visual 1 Title
-![heatmap](images/Correlation_Heatmap.png)
-
-> Sentence about visualization.
-
-#### Visual 2 Title
 
 ## Model
 
