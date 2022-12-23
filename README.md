@@ -27,7 +27,7 @@ In this program we are creating multiple different models to help a retailer und
 
 
 #### Visual 1 Title
-![sample image](project1_sample_image.png)
+![heatmap](Correlation_Heatmap.png)
 
 > Sentence about visualization.
 
