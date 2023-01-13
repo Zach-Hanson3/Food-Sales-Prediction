@@ -36,9 +36,12 @@ For this data set there is 8,523 rows and 12 columns.
 
 This heatmap shows that there is a high correlation between an items MRP and its total outlet sales.
 
+
 ### Explanatory Data Analysis
 ![alt text](https://github.com/Zach-Hanson3/Food-Sales-Prediction/blob/main/images/outlet%20type.PNG)
+
 Another large factor in an items outlet sales is the outlet type of the given store. We can see here that Supermarket Type 3 has just under double the total sales compared to Type 1 and Type 2, which in turn also have about four times the amount of sales as a grocery store.
+
 
 ## Model
 ### Models Used:
