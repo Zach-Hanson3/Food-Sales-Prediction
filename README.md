@@ -10,8 +10,11 @@ In this program we are creating multiple different models to help a retailer und
 #### Source:
 Big Mart Sales Prediction https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/
 For this data set there is 8,523 rows and 12 columns.
+
 #### Data Dictionary
 ![alt text](https://github.com/Zach-Hanson3/Food-Sales-Prediction/blob/main/images/datadict.PNG)
+
+
 
 ## Methods
 - Started by removing the unnecessary features that were included with the original data
@@ -27,6 +30,14 @@ For this data set there is 8,523 rows and 12 columns.
 - Created a linear regression model and investigated the RMSE and R^2 values this model gave us
 - Created a Regression tree model and investigated the RMSE and R^2 values this model gave us
 
+## Results
+### Exploratory Data Analysis
+![alt text](https://github.com/Zach-Hanson3/Food-Sales-Prediction/blob/main/images/Correlation_Heatmap.PNG)
+This heatmap shows that there is a high correlation between Item Outlet Sales and the items MRP.
+
+### Explanatory Data Analysis
+![alt text]()
+Another large factor in an items outlet sales is the outlet type of the given store. We can see here that Supermarket Type 3 has just under double the total sales compared to Type 1 and Type 2, which in turnu also have about four times the amount of sales as a grocery store.
 
 ## Model
 
