@@ -33,23 +33,46 @@ For this data set there is 8,523 rows and 12 columns.
 ## Results
 ### Exploratory Data Analysis
 ![alt text](https://github.com/Zach-Hanson3/Food-Sales-Prediction/blob/main/images/Correlation_Heatmap.PNG)
-This heatmap shows that there is a high correlation between Item Outlet Sales and the items MRP.
+This heatmap shows that there is a high correlation between an items MRP and its total outlet sales.
 
 ### Explanatory Data Analysis
-![alt text]()
-Another large factor in an items outlet sales is the outlet type of the given store. We can see here that Supermarket Type 3 has just under double the total sales compared to Type 1 and Type 2, which in turnu also have about four times the amount of sales as a grocery store.
+![alt text](https://github.com/Zach-Hanson3/Food-Sales-Prediction/blob/main/images/outlet%20type.PNG)
+Another large factor in an items outlet sales is the outlet type of the given store. We can see here that Supermarket Type 3 has just under double the total sales compared to Type 1 and Type 2, which in turn also have about four times the amount of sales as a grocery store.
 
 ## Model
+### Models Used:
+- Linear Regression Model
+- Tuned Random Forest Regression Model
 
-Our final model uses a random forest regression model to predict an items outlet sales.
+### Results of Models
+- Linear Regression Model (Testing Set)
+  - R^2: 0.5661
+  - MAE: 805.49
+  - MSE: 1,094,068.14
+  - RMSE: 1,094.11
+- Tuned Random Forest Regression Model (Testing Set)
+  - R^2: 60.30
+  - MAE: 728.48
+  - MSE: 1,095,215.78
+  - RMSE: 1,046.53
 
-This model has a RMSE of 1,047 units sold, and an R^2 of 0.6030.
+- The final model chosen was the random forest regression model with a max depth of 5 and n_estimators tuned to 300
+- On the testing set of this model, 60.3% of the variance in total outlet sales was explained by our other features
+- The Mean Absolute Error was off by around $728.48.
+- The Mean Square Error was off by $1,095,215.78.
+- The Root Mean Square Error was off by about $1,046.53.
 
-This means our model can predicty an items outlet sales with an error of around 1,050 units, and the features of this model can account for about 60% of the variance in the target value.
+## Recommendations
 
-## Recommendations:
-
-In general, the most ideal outlet would be a medium size, supermarket type 3, located in a tier 2 or tier 3 location. Of these features, the size and location tend to have a significantly smaller impact on an items sales compared to the type of outlet.
+### Feature Recommendations:
+- For an ideal outlet:
+  - Medium Size
+  - Supermarket Type 3
+  - Tier 2 or Tier 3 location
+  - If having to decide between features, size and location tend to have a much smaller impact on an items sales compared to outlet type.
+  
+### Model Recommendation:
+- The best model is a tuned Random Forest Regression Model. There is still some bias in the model, but of our options this one performs the best by a few percentage points.
 
 
 ## Limitations & Next Steps
