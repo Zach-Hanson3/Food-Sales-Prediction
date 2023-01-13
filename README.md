@@ -33,6 +33,7 @@ For this data set there is 8,523 rows and 12 columns.
 ## Results
 ### Exploratory Data Analysis
 ![alt text](https://github.com/Zach-Hanson3/Food-Sales-Prediction/blob/main/images/Correlation_Heatmap.PNG)
+
 This heatmap shows that there is a high correlation between an items MRP and its total outlet sales.
 
 ### Explanatory Data Analysis
