@@ -6,6 +6,12 @@
 
 In this program we are creating multiple different models to help a retailer understand the properties of products and outlet stores that play a role in predicting sales.
 
+### Data
+#### Source:
+Big Mart Sales Prediction https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/
+For this data set there is 8,523 rows and 12 columns.
+#### Data Dictionary
+
 
 ## Methods
 - Started by removing the unnecessary features that were included with the original data
